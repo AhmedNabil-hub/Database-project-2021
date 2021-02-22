@@ -15,8 +15,9 @@ Database course-Third Year-Tanta University Computer and Automatic control Depar
 
 ### Referential Integrity Actions
 
-* On **DELETE** -> **Cascade**
-* On **UPDATE** -> **Cascade**
+* On **DELETE** -> **Cascade**    -> employee with driver , client with order
+* On **DELETE** -> **NO ACTION**  -> address with order , pricing with order, employee with order
+* On **UPDATE** -> **Cascade**    -> All tables
 
 ### Procedures
 
