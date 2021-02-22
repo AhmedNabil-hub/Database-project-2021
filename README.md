@@ -3,7 +3,7 @@
 
 Database course-Third Year-Tanta University Computer and Automatic control Department
 
-#### Tables
+### Tables
 
 * order
 * employee
@@ -13,12 +13,12 @@ Database course-Third Year-Tanta University Computer and Automatic control Depar
 * address
 * log_table
 
-#### Referential Integrity Actions
+### Referential Integrity Actions
 
 * On **DELETE** -> **Cascade**
 * On **UPDATE** -> **Cascade**
 
-#### Procedures
+### Procedures
 
 * **_spnew_order_**     : To add a new order
 * **_spwith_driver_**   : To change the order state to be with a driver
@@ -26,16 +26,16 @@ Database course-Third Year-Tanta University Computer and Automatic control Depar
 * **_spwcanceled_**     : To change the order state to be canceled
 * **_create_trigger_**  : To create a trigger on all actions can be done on a table to add it in log_table
 
-#### Triggers
+### Triggers
 
 * ***AFTER*** DELETE, UPDATE and INSERT into any table, then add these actions to log_table
 
-#### Views
+### Views
 
 * **_all_orders_info_**     : Manager view the basic orders' information
 * **_driver_orders_count_** : View of count of orders assigned to each driver
 
-#### Functions
+### Functions
 _You can say is used as a dynamic views with parameters_
 
 * **_custom_order_info_**   : Return a table with a specific order information so the client can trace its order state
