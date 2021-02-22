@@ -39,6 +39,6 @@ Database course-Third Year-Tanta University Computer and Automatic control Depar
 _You can say is used as a dynamic views with parameters_
 
 * **_custom_order_info_**   : Return a table with a specific order information so the client can trace its order state
-* **_custom_driver_info_**  : Return a table with a all orders information assigned to a specific driver so the driver can trace all orders assigned to him
+* **_custom_driver_info_**  : Return a table with all orders information assigned to a specific driver so the driver can trace them
 
 
