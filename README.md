@@ -7,7 +7,7 @@ Database course-Third Year-Tanta University Computer and Automatic control Depar
 
 * **Code** -> Procedures, Views and Functions implementation
 * **check_code** -> Executes an example to check if procedures, views and functions run properly
-* **tables_mods** -> some sql statements that show some modifications that had been done  _you can ignore them. They have been executed._
+* **tables_mods** -> some sql statements that show some modifications that had been done.  _**you can ignore them. They have been executed.**_
 
 ### Tables
 
